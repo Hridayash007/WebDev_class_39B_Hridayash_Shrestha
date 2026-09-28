@@ -1,0 +1,145 @@
+
+/* Body */
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: navy;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Navigation Links */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Introduction */
+#introduction h2 {
+    text-align: left;
+    font-weight: bold;
+}
+
+#introduction p {
+    text-align: justify;
+}
+
+/* Boss Image */
+.boss-image {
+    text-align: center;
+}
+
+.boss-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.boss-image figcaption {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Experience */
+#experience li:nth-child(odd) {
+    font-weight: lighter;
+}
+
+#experience li:nth-child(even) {
+    font-weight: bold;
+}
+
+/* Skills Table */
+#skills table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#skills th {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+}
+
+#skills td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#skills tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+/* Projects */
+#projects li {
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* YouTube Video */
+.video-container {
+    text-align: center;
+}
+
+.video-container iframe {
+    width: 560px;
+    height: 315px;
+}
+
+/* Contact Form */
+#contact form {
+    width: 60%;
+    margin: auto;
+}
+
+#contact label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contact input,
+#contact select {
+    width: 100%;
+    padding: 10px;
+}
+
+#contact button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: navy;
+    color: white;
+}
+
+#contact button:hover {
+    background-color: lightblue;
+    color: navy;
+}
